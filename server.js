@@ -21,7 +21,7 @@ app.use(express.json());
 app.use(cookieParser());  //this is for connecting cookies and apis from controller to router.
 app.use(cors({
     origin : [process.env.FRONTENT_URL],
-    method : ["GET","POST","PUT","DELETE"],
+    methods : ["GET","POST","PUT","DELETE"],
     credentials : true
  }))
 
