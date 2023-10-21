@@ -21,10 +21,7 @@ const register = async (req, res, next) => {
   } catch (error) {
     next(error);
   }
-  //     res.json({
-  //         success : true,
-  //         user
-  // })
+  
 };
 
 //To logIn
